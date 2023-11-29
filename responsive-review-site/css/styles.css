@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(153, 164, 176);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(91, 91, 234);
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 4%;
+    font-size: 1.4em;
+}
+a:hover{
+    color: rgb(91, 91, 234);
+    background-color: rgb(0, 255, 242);
+}
+div{
+    text-align: center;
+}
+h1{
+    text-shadow: 2px 2px 2px rgb(18, 58, 239);
+    font-size: 3em;
+    text-align: center;
+    color: rgb(0, 195, 255);
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+#one{
+    background-image: url(../images/home.JPG);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+#main{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 4px 4px 4px;
+    font-size: 4em;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(153, 164, 176);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15%;
+    border-radius: 20px;
+}
+#small{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 4px 4px 4px;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: rgb(153, 164, 176);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 5px;
+}
+#mow{
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    float: left;
+}
+#mowing{
+    height: auto;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-indent: 18px;
+    margin-top: 150px;
+}
+#mulch{
+    width: 50%;
+    height: auto;
+    margin-right: .5%;
+    float: right;
+    padding: 2%;
+}
+#mulching{
+    height: auto;
+    width: 1000px;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-indent: 18px;
+    margin-top: 200px;
+}
+#sod{
+    width: 55%;
+    height: auto;
+    padding: 2%;
+    margin-top: 15%;
+}
+#sodding{
+    height: auto;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-indent: 18px;
+    margin-top: 300px;
+    float: right;
+}
+#patio{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+   margin-top: 40px;
+}
+#patios{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-indent: 18px;
+    margin-top: 10px;
+}
+#house-patio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+#house-patios{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-indent: 18px;
+    margin-top: 10px;
+}
+#deck{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+#decks{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-indent: 18px;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgb(65, 233, 225);
+    
+}
+ul{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(45, 53, 205);
+    line-height: 70px;
+}
+footer{
+    text-align: center;
+    margin-top: 600px;
+    color: black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    background: lightslategray;
+    box-sizing: border-box;
+}.grid-container>div{
+    background-color: #000000;
+    padding: 20px 0;
+    min-height: 100px;
+    width: 100%;
+}
+.grid-container>div>img{
+width: 90%;
+margin: 10px auto;
+display: block;
+cursor: pointer;
+}
+#large{ 
+    box-sizing: border-box;
+    padding: 20px;
+    background: #000000;
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+}
